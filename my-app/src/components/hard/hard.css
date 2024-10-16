@@ -1,0 +1,46 @@
+.virtuso {
+  height: 450px !important;
+  overflow: auto;
+
+  div[data-test-id='virtuoso-item-list'] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.hard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.hardImage {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.hardHome {
+  width: 140px;
+  background-color: blue;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 500;
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.hardNav {
+  display: flex;
+  gap: 8px;
+}

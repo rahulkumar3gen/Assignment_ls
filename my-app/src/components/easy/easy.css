@@ -1,0 +1,66 @@
+.easyHome {
+  width: 140px;
+  background-color: blue;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 500;
+  color: white;
+  border-radius: 30px;
+}
+
+.products {
+  margin: 20px;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.products__single {
+  height: 250px;
+  list-style: none;
+  padding: 20px;
+  background-color: rgb(220, 220, 220);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Imp on clickables */
+}
+
+.products__single>img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  margin-bottom: 3px;
+}
+
+.pagination {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paginationButton {
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.paginationButtonDisabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.easyNav {
+  display: flex;
+  gap: 8px;
+}
